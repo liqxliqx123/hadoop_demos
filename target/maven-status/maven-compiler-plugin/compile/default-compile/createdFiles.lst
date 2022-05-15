@@ -1,0 +1,4 @@
+com\liqx\hbase\BaseTest.class
+com\liqx\mapreduce\MapreduceTest.class
+com\liqx\mapreduce\MapreduceTest$IntSumReducer.class
+com\liqx\mapreduce\MapreduceTest$TokenizerMapper.class
