@@ -1,4 +1,5 @@
 com\liqx\hbase\BaseTest.class
-com\liqx\mapreduce\MapreduceTest.class
-com\liqx\mapreduce\MapreduceTest$IntSumReducer.class
-com\liqx\mapreduce\MapreduceTest$TokenizerMapper.class
+com\liqx\mapreduce\PhoneTraffic.class
+com\liqx\mapreduce\TrafficStat$TrafficReducer.class
+com\liqx\mapreduce\TrafficStat.class
+com\liqx\mapreduce\TrafficStat$TrafficMapper.class
