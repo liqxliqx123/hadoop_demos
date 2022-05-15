@@ -12,11 +12,24 @@ public class PhoneTraffic implements Writable {
     private long down;
     private long sum;
 
-    public PhoneTraffic(){}
+    public PhoneTraffic() {
+    }
 
     public PhoneTraffic(long up, long down, long sum) {
+        this.setUp(up);
+        this.setDown(down);
+        this.setSum(sum);
+    }
+
+    public void setUp(long up) {
         this.up = up;
+    }
+
+    public void setDown(long down) {
         this.down = down;
+    }
+
+    public void setSum(long sum) {
         this.sum = sum;
     }
 
@@ -44,5 +57,9 @@ public class PhoneTraffic implements Writable {
 
     public long getSum() {
         return this.sum;
+    }
+
+    public String toString(){
+        return this.getUp() + "\t" + this.getDown() + "\t" + this.getSum();
     }
 }
